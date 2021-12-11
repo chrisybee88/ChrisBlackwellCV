@@ -1,0 +1,6 @@
+https://medium.com/geekculture/angular-application-deployment-with-github-aws-ci-cd-codebuild-s3-the-step-by-step-guide-8893777104da
+
+RoleName:
+codebuild-ChrisBlackwellCV-service-role
+
+my-awsome-bucket-of-files/
