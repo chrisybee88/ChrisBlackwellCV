@@ -1,4 +1,8 @@
 https://medium.com/geekculture/angular-application-deployment-with-github-aws-ci-cd-codebuild-s3-the-step-by-step-guide-8893777104da
+https://docs.aws.amazon.com/codebuild/latest/userguide/sample-github-pull-request.html
+Primary source webhook events
+Rebuild every time a code change is pushed to this repository
+Push + PullRequestMerged
 
 RoleName:
 codebuild-ChrisBlackwellCV-service-role
