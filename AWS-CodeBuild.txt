@@ -1,6 +1,6 @@
 1) Create a new angular website
 
-2) create an S3 bucket with web hostinga nd versioning and upload angular build output
+2) create an S3 bucket with web hosting and versioning and upload angular build output
 S3 lab A Cloud Guru: https://learn.acloud.guru/handson/832301d1-2af5-42c6-9114-d2e171297f3d
 
 3) create github, push code and create a CICD build, dont forget the build on changes checkbox, add push and PR 
@@ -27,4 +27,10 @@ arn:aws:cloudfront::372345663074:distribution/E1AFZXO59MKYFW
 Distribution domain name: 
 https://dl1e48tn65e2p.cloudfront.net
 
-5) Create a CNAME record to poit to the cloud front
+5) Create a CNAME record to point to the cloud front, 
+first we need a domain name in Route53, 
+then create an alias record to point the cloudfron URL to the CNAME record
+https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-to-cloudfront-distribution.html
+https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/CNAMEs.html
+https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/CNAMEs.html#alternate-domain-names-requirements
+
