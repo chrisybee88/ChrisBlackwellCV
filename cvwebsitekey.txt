@@ -1,0 +1,53 @@
+cb08005624
+U7L5zdmRGMbpeVHj
+
+https://data.mongodb-api.com/app/data-disqo/endpoint/data/beta
+cvwebsite-dataapikey
+ejqkxvaXQyKaI1Gy09fR6lWbVk2aUPOT8U6xoKKPXkKtHw0jH7URbyuL6QHLRaz4
+
+curl --location --request POST 'https://data.mongodb-api.com/app/data-disqo/endpoint/data/beta/action/findOne' \
+--header 'Content-Type: application/json' \
+--header 'Access-Control-Request-Headers: *' \
+--header 'api-key: ejqkxvaXQyKaI1Gy09fR6lWbVk2aUPOT8U6xoKKPXkKtHw0jH7URbyuL6QHLRaz4' \
+--data-raw '{
+    "collection":"experience",
+    "database":"cvwebsite",
+    "dataSource":"Cluster0",
+    "projection": {"_id": 1}
+}'
+
+npm install -g mongodb-realm-cli
+
+public api key: jwtcmdth
+Private Key : f33f0b6a-abe6-40cb-b353-425345db9b0e
+
+Authenticate to the realm-cli
+realm-cli login --api-key jwtcmdth --private-api-key f33f0b6a-abe6-40cb-b353-425345db9b0e
+
+Download the files into your current directory via cli command. 
+Set up your CLI.
+realm-cli pull --remote cvwebsite-realmapi-iukuy --template web.mql.todo
+
+
+HelloWorld:
+https://eu-west-1.aws.data.mongodb-api.com/app/cvwebsite-realmapi-iukuy/endpoint/helloworld
+
+curl \
+-H "Content-Type: application/json" \
+-d '{"foo":"bar"}' \
+https://eu-west-1.aws.data.mongodb-api.com/app/cvwebsite-realmapi-iukuy/endpoint/helloworld
+
+
+Get Experiences
+https://eu-west-1.aws.data.mongodb-api.com/app/cvwebsite-realmapi-iukuy/endpoint/getexperiences
+
+curl \
+https://eu-west-1.aws.data.mongodb-api.com/app/cvwebsite-realmapi-iukuy/endpoint/getexperiences
+
+
+
+
+
+
+
+

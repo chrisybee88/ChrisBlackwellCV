@@ -1,10 +1,16 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { RouterOutlet } from '@angular/router';
+import { DashboardComponent } from './dashboard/dashboard.component';
+
 
 @Component({
-  selector: 'cbcv-root',
+  selector: 'app-root',
+  standalone: true,
+  imports: [CommonModule, RouterOutlet, DashboardComponent],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'chrisblackwell-cv';
+  title = 'chris';
 }
