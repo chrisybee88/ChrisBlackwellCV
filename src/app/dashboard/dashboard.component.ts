@@ -33,7 +33,7 @@ export class DashboardComponent implements OnInit {
       if (this.paramValue === this.accessCode) {
         this.showContent();
       } else {
-        //this.promptForAccessCode();
+        this.promptForAccessCode();
       }
     });
   }
